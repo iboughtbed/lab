@@ -13,7 +13,8 @@
     "typecheck": "turbo run typecheck",
     "format:write": "turbo run format:write",
     "format:check": "turbo run format:check",
-    "check": "turbo lint typecheck format:check"
+    "check": "turbo lint typecheck format:check",
+    "ui:add": "pnpm dlx shadcn@canary add"
   },
   "devDependencies": {
     "@lab/eslint-config": "workspace:*",
